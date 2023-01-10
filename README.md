@@ -1,2 +1,6 @@
 # SlimeVR_TT.Ver
-Diy tracker, based on slimeVR. (Uses better batteray charger and power solutions)
+## 1 Intro 
+本项目为SlimeVR开源硬件项目的复制版，基于ICM-20948 9轴陀螺仪，主控为性能更好的ESP32。使用更好的充放电管理方案。在PCB板上增加了用于连接魔术贴的开槽从而可以不使用3D打印外壳。 
+成本略高，大约￥100一个节点
+## 2 Solution 
+之所以对SlimeVR的原始设计进行修改，是因为原始设计基本没有考虑电源管理，直接将电池连接至ESP mcu，这是欠考虑的。本设计在原有基础之上，加入TPS63070 buck-boost电源稳压至3.3V，同时将充电管理芯片由TP4056更换为德州仪器BQ24061。增加了电源软开关TPS22810（可以通过电阻Bypass） 
