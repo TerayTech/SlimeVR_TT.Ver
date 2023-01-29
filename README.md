@@ -17,5 +17,5 @@
 在实际的测试中，经过三次焊接的IMU-20948芯片其在性能上已经表现出明显异常。如社区中大家所说的“体制”问题，MEMS器件在经过三次焊接流程后，其内部的机械结构已经发生了不可逆转的变化，其获得的数据已经不再可信，解决办法是更换新的传感器芯片。同时，我们应该尽量避免使用拆机翻新的传感器，翻新的传感器也已经经过了2次焊接过程，失效的可能性较大。  
   
   
-<img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/demo.JPG" width="480">  
+<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/demo.JPG" width="480"></div>    
   
