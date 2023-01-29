@@ -1,7 +1,10 @@
 # SlimeVR_TT.Ver  
 <div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg" width="480"></div>  
+  
 ## 1 Intro  
-本项目为SlimeVR开源硬件项目的复制版，基于ICM-20948/BNO-08x 9轴陀螺仪，主控为性能更好的ESP32，具有以下特性：  
+  
+### 本项目为SlimeVR开源硬件项目的复制版，兼容ICM-20948/BNO-08x 9轴陀螺仪（可选），  
+### 主控为性能更好的ESP32，具有以下特性：  
   
 1. 使用更好的充放电管理方案。使用IP2312 DC/DC锂离子电池充电芯片，解决TP4056的巨大发热问题，最大充电电流可到3.1A  
   
