@@ -1,6 +1,6 @@
 # SlimeVR_TT.Ver  
 ![pcb_main](https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg)
-<img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg" width="480">  
+<img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg" width="48">  
 ## 1 Intro  
 本项目为SlimeVR开源硬件项目的复制版，基于ICM-20948/BNO-08x 9轴陀螺仪，主控为性能更好的ESP32。  
 作为传统SlimeVR的改进版，本项目具有以下特性：  
