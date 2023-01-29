@@ -1,6 +1,5 @@
 # SlimeVR_TT.Ver  
-![pcb_main](https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg)
-<img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg" width="48">  
+<img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg" width="480">  
 ## 1 Intro  
 本项目为SlimeVR开源硬件项目的复制版，基于ICM-20948/BNO-08x 9轴陀螺仪，主控为性能更好的ESP32。  
 作为传统SlimeVR的改进版，本项目具有以下特性：  
@@ -17,6 +16,6 @@
 	在博世公司给出的《BNO-055 处理、焊接以及安装说明手册》中提到了：该产品可以承受最多3个回流焊接周期。这可能是一种情况，即PCB安装了来自两侧的设备（即需要2个回流周期），并且在下一个步骤中可能需要额外的重新工作周期（1个回流）。  
 在实际的测试中，经过三次焊接的IMU-20948芯片其在性能上已经表现出明显异常。如社区中大家所说的“体制”问题，MEMS器件在经过三次焊接流程后，其内部的机械结构已经发生了不可逆转的变化，其获得的数据已经不再可信，解决办法是更换新的传感器芯片。同时，我们应该尽量避免使用拆机翻新的传感器，翻新的传感器也已经经过了2次焊接过程，失效的可能性较大。  
   
-    
-![demopic](https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/demo.JPG)  
+  
+<img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/demo.JPG" width="480">  
   
