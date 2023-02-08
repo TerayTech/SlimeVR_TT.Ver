@@ -1,5 +1,5 @@
 # SlimeVR_TT.Ver  
-<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/SLVR_PCBtop.jpg" width="480"></div>  
+<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/IMG_0465.jpg" width="300"></div>  
   
 ## 1 Intro  
   
@@ -13,8 +13,9 @@
   
 4. 使用TPS63070 Buck-Boost IC，对比传统方案所使用的单个LDO，能够将电池寿命发挥至极限，增加追踪器的续航  
   
-5. 使用3D打印制作的配套外壳，由@[SteveHawking]完成
-  
+5. 使用3D打印制作的配套外壳，由@[SteveHawking]完成  
+<div align=left><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/case1.png" width="300"></div>  
+<div align=left><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/case3.jpg" width="300"></div>  
   
 ## 2 Tips 
 1. 推荐所有传感器均使用BNO-085，因为ICM-20948的效果我个人认为没有很好。  
@@ -27,5 +28,7 @@
 在实际的测试中，经过三次焊接的IMU-20948芯片其在性能上已经表现出明显异常。如社区中大家所说的“体制”问题，MEMS器件在经过三次焊接流程后，其内部的机械结构已经发生了不可逆转的变化，其获得的数据已经不再可信，解决办法是更换新的传感器芯片。同时，我们应该尽量避免使用拆机翻新的传感器，翻新的传感器也已经经过了2次焊接过程，失效的可能性较大  
   
   
-<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/demo.JPG" width="480"></div>    
+<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/demo.JPG" width="400"></div>  
+<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/IMG_0468.JPG" width="400"></div>  
+<div align=center><img src="https://github.com/TerayTech/SlimeVR_TT.Ver/blob/main/img/case2.png" width="400"></div>  
   
